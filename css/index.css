@@ -13,7 +13,39 @@ header {
   top: 75px;
 }
 
+#head {
+  font-family: "sans";
+  font-size: 1.5em;
+}
+
+#boxes {
+  padding-left : 5%;
+}
+
+.box {
+  width:25%;
+  float:left;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.box a{
+  text-decoration: none;
+  padding: 5px;
+  margin-bottom:  3px;
+  color: white;
+  float: right;
+  background-color: #1976D2;
+  border: 1px solid #1976D2;
+  border-radius: 3px;
+}
+
 @font-face {
   font-family: "slab";
   src: url("../fonts/Slabo-Regular.ttf");
+}
+
+@font-face {
+  font-family: "sans";
+  src: url("../fonts/OpenSans-Regular.ttf")
 }
