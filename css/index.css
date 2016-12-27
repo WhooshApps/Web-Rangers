@@ -22,11 +22,21 @@ header {
   padding-left : 5%;
 }
 
+#boxes td{
+  argin-left: 15px;
+}
+
 .box {
-  width:25%;
   float:left;
   border: 2px solid black;
   border-radius: 5px;
+  padding: 8px;
+}
+
+.box img {
+  position: relative;
+  max-width: 90%;
+  max-height: 40%;
 }
 
 .box a{
@@ -38,6 +48,23 @@ header {
   background-color: #1976D2;
   border: 1px solid #1976D2;
   border-radius: 3px;
+}
+
+#comments {
+  font-family: "slab";
+  font-size: 1.4em;
+}
+
+#comments span {
+  font-style: italic;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.99);
+  color: white;
+  padding: 14px;
+  font-family: "slab";
+  font-size: 1.1em;
 }
 
 @font-face {
