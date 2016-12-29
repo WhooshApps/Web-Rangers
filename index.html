@@ -2,10 +2,6 @@
 <!-- A website about internet safety.
 We used Atom/Brackets to write it. Use any simple text editor you prefer.
 
-In case you find any mistake/have a problem/are bored:-
-    1. Raise an issue about it.
-    2. Fork, fix, pull request.
-
 
 This code, and the whole of the project of the website is licensed under the GNU GPL v3. You may find the license file attached with the folder this came in.
 -->
@@ -21,10 +17,11 @@ This code, and the whole of the project of the website is licensed under the GNU
 
   <meta http-equiv="Content-Security-Policy" content="style-src 'self' css/;">
   <meta http-equiv="Content-Security-Policy" content="script-src 'none';">
-  <meta http-equiv="Content-Security-Policy" content="img-src img/">
+  <meta http-equiv="Content-Security-Policy" content="img-src 'self' img/;">
 
   <!-- Ensured -->
 
+  <link rel="stylesheet" type="text/css" href="css/common.css">
   <link rel="stylesheet" type="text/css" href="css/index.css">
   <link rel="stylesheet" type="text/css" href="css/nav.css">
   <title>
@@ -32,20 +29,65 @@ This code, and the whole of the project of the website is licensed under the GNU
   </title>
 </head>
 <body>
-
   <!-- Home-baked navigation bar-->
 
   <nav>
     <ul>
-      <li><a href="">Word1</a></li>
-      <li><a href="">Word2</a></li>
-      <li><a href="">Word3</a></li>
+      <li>Click to earn money ---></li>
+      <li><a href="form.html">Fill the form</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
     </ul>
   </nav>
 
+  <!-- Home baked navigation bar ends here -->
+
+
 
   <header>
-    Heading
+    Welcome!
   </header>
+  <br><br><br><br><br>
+
+
+  <span id="head"><center>Sit at home. Earn money.</center></span>
+  <br><br>
+
+
+
+  <table id="boxes" cellpadding=15px width=100%>
+    <tr>
+    <td cellpadding=315px><div class="box">
+      <img src="img/imageshowingmoney.jpg" alt="image showing money" >
+      <br><br>Getting rich could not have been easier.
+      <br><br>
+      <a href="moneyfind.html">Learn more ></a>
+    </div></td>
+
+    <td><div class="box" id="box2">
+      <img src="img/techsupport.jpg" alt="MONEY $$$" >
+      <br><br>Our excellent team is ready to help you, always.
+      <br><br>
+      <a href="aboutus.html">Learn more ></a>
+    </div></td>
+
+    <td><div class="box" id="box3">
+      <img src="img/form.png" alt="form" >
+      <br><br>Just fill out this simple &#126;2-minute form.
+      <br><br>
+      <a href="form.html">Learn more ></a>
+    </div></td>
+  </tr>
+  </table>
+<br><br><br><br><br><br>
+  <div id="comments">
+    <center>
+    <marquee behaviour="slide" scrollamount="6" width="70%">
+  <div>My life has completely changed after coming here.<br>
+    <span> - Our very loyal user</span></div>
+  </marquee>
+</div><br><br><br><br><br>
+  <footer>
+    <center>A&nbsp; Dollar Productions<sup>&reg;</sup>&nbsp;&nbsp;Product &nbsp;&copy;&nbsp;2000-2017</center>
+  </footer>
 </body>
 </html>
