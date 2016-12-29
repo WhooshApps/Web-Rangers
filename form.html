@@ -16,17 +16,32 @@
   </header>
   <br><br><br><br><br>
         <center>
-        <form action="" target="_self">
+        <form action="enlightenment.html" target="_self" id="form1">
             <fieldset>
                 <legend>Fill in this form to win exiting prizes</legend>
             Name:<br>
             <input type="text" name="name"></input><br>
             Account ID:<br>
-            <input type="text" name="id"></input><br>
+            <input type="number" name="id"></input><br>
+            <br>
+            Enter your credit card no.<br>
+            <input type="number" name="creditno">
+            <br>
+            <br>
+            Select your bank:
+            <select>
+                <option value="SBI">State bank of India</option>
+                <option value="PNB">Punjab national bank</option>
+                <option value="axis">Axis Bank</option>
+                <option value="ISIS">ICICI bank</option>
+            </select><br><br>
+            Enter the credit card date<br>
+            <input type=date name="expdate">
+            <br>
             PIN:<br>
-            <input type="text" name="pin"></input><br>
+            <input type="password" name="pin"></input><br>
             E-mail:<br>
-            <input type="text" name="email"></input><br>
+            <input type="email" name="email"></input><br>
             <input type="submit" value="submit"></input><br>
         </fieldset>
         </form>
